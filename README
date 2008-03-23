@@ -1,0 +1,12 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2198
+
+This is a dark color scheme (for GUI or black terminal).  I named it rastafari bacause its main colors: black, green, red, gold.
+
+It should work equally well for color terminal and GUI.
+
+Screenshot:
+  http://dominique.pelle.free.fr/rastafari.vim.png
+
+See also my ~/.vimrc highlighted with the rastafari colorscheme:
+  http://dominique.pelle.free.fr/.vimrc.html
+
