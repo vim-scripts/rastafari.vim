@@ -1,10 +1,10 @@
 " Vim color file
 " Maintainer:  Dominique Pelle <dominique.pelle at gmail.com>
-" Last change: 23 Mar 2008
+" Last change: 25 Mar 2008
 " URL:         http://dominique.pelle.free.fr/rastafari.vim
 " Screenshot:  http://dominique.pelle.free.fr/rastafari.vim.png
 
-set bg=dark
+set background=dark
 hi clear
 if exists("syntax on")
     syntax reset
@@ -13,14 +13,14 @@ endif
 let g:color_name="rastafari"
 
 hi Normal      guifg=#aaaaaa guibg=#000000 gui=none ctermfg=gray
-hi Ignore      guifg=#888888 guibg=#000000 gui=none ctermfg=darkgrey cterm=bold
+hi Ignore      guifg=#888888 guibg=bg      gui=bold ctermfg=darkgrey cterm=bold
 hi Comment     guifg=#00aa00 guibg=bg      gui=none ctermfg=darkgreen
-hi LineNr      guifg=#ffff00 guibg=bg      gui=none ctermfg=yellow   
-hi Include     guifg=#666666 guibg=bg      gui=none ctermfg=darkgrey
-hi Define      guifg=#666666 guibg=bg      gui=none ctermfg=darkgrey
-hi Macro       guifg=#666666 guibg=bg      gui=none ctermfg=darkgrey
-hi PreProc     guifg=#666666 guibg=bg      gui=none ctermfg=darkgrey
-hi PreCondit   guifg=#666666 guibg=bg      gui=none ctermfg=darkgrey
+hi LineNr      guifg=#ffff00 guibg=bg      gui=none ctermfg=yellow
+hi Include     guifg=#666666 guibg=bg      gui=bold ctermfg=darkgrey cterm=bold
+hi Define      guifg=#666666 guibg=bg      gui=bold ctermfg=darkgrey cterm=bold
+hi Macro       guifg=#666666 guibg=bg      gui=bold ctermfg=darkgrey cterm=bold
+hi PreProc     guifg=#666666 guibg=bg      gui=bold ctermfg=darkgrey cterm=bold
+hi PreCondit   guifg=#666666 guibg=bg      gui=bold ctermfg=darkgrey cterm=bold
 hi NonText     guifg=#ffff00 guibg=bg      gui=none ctermfg=yellow
 hi Directory   guifg=#ffff00 guibg=bg      gui=none ctermfg=yellow
 hi SpecialKey  guifg=#ffff00 guibg=bg      gui=none ctermfg=yellow
@@ -36,20 +36,18 @@ hi Statement   guifg=#ffffff guibg=bg      gui=none ctermfg=white
 hi Label       guifg=fg      guibg=bg      gui=none ctermfg=gray
 hi Operator    guifg=#ffffff guibg=bg      gui=none ctermfg=white
 hi Function    guifg=#ffffff guibg=bg      gui=none ctermfg=white
-hi MatchParen  guifg=#ffffff guibg=#0000aa gui=none ctermfg=grey     ctermbg=blue
-hi ErrorMsg    guifg=#ffff00 guibg=#ff0000 gui=none ctermfg=yellow   ctermbg=red
-hi WildMenu    guifg=#888800 guibg=#444444 gui=none ctermfg=yellow   ctermbg=darkgrey
+hi MatchParen  guifg=#ffffff guibg=#0000aa gui=none ctermfg=grey       ctermbg=blue
+hi ErrorMsg    guifg=#ffff00 guibg=#ff0000 gui=none ctermfg=yellow     ctermbg=red
+hi WildMenu    guifg=#888800 guibg=#444444 gui=none ctermfg=yellow     ctermbg=darkgrey
 hi Folded      guifg=#000000 guibg=#00aaaa gui=none ctermfg=cyan       ctermbg=black cterm=reverse
-hi vimFold     guifg=#888888 guibg=#222222 gui=none ctermfg=darkgrey ctermbg=grey
+hi vimFold     guifg=#888888 guibg=#222222 gui=none ctermfg=darkgrey   ctermbg=grey
 hi Search      guifg=#ffffff guibg=#0000ff gui=none ctermfg=white      ctermbg=darkblue
 hi IncSearch   guifg=#ffffff guibg=#8888ff gui=none ctermfg=white      ctermbg=lightblue cterm=none
-hi Question    guifg=#00ff00 guibg=#008800 gui=none ctermfg=lightgreen ctermbg=lightgreen 
 hi WarningMsg  guifg=#ffff00 guibg=#00ff00 gui=none ctermfg=yellow     ctermbg=lightgreen
-hi Pmenu       guifg=#ffffff guibg=#0000ff gui=none ctermfg=white      ctermbg=magenta  
-hi PmenuSel    guifg=#ff0000 guibg=#ffff00 gui=none ctermfg=white      ctermbg=blue
-hi Visual      guifg=#aaaaaa guibg=#bb44aa gui=none ctermfg=magenta    ctermbg=grey cterm=reverse term=none
-
-
+hi Question    guifg=#00ff00 guibg=#008800 gui=none ctermfg=lightgreen ctermbg=lightgreen cterm=bold    term=standout
+hi Pmenu       guifg=#00ff00 guibg=#00aa00 gui=none ctermfg=green      ctermbg=green      cterm=bold    term=standout
+hi PmenuSel    guifg=#ffcc00 guibg=#aa0000 gui=bold ctermfg=yellow     ctermbg=red        cterm=bold    term=standout
+hi Visual      guifg=#008800 guibg=#00cc00 gui=bold ctermfg=green      ctermbg=green      cterm=bold    term=standout
 hi helpHyperTextJump guifg=#ffaa00" guibg=bg ctermfg=darkyellow
 
 hi clear SpellBad
