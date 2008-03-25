@@ -47,7 +47,7 @@ hi WarningMsg  guifg=#ffff00 guibg=#00ff00 gui=none ctermfg=yellow     ctermbg=l
 hi Question    guifg=#00ff00 guibg=#008800 gui=none ctermfg=lightgreen ctermbg=lightgreen cterm=bold    term=standout
 hi Pmenu       guifg=#00ff00 guibg=#00aa00 gui=none ctermfg=green      ctermbg=green      cterm=bold    term=standout
 hi PmenuSel    guifg=#ffcc00 guibg=#aa0000 gui=bold ctermfg=yellow     ctermbg=red        cterm=bold    term=standout
-hi Visual      guifg=#008800 guibg=#00cc00 gui=bold ctermfg=green      ctermbg=green      cterm=bold    term=standout
+hi Visual      guifg=#00ff00 guibg=#00aa00 gui=bold ctermfg=green      ctermbg=green      cterm=bold    term=standout
 hi helpHyperTextJump guifg=#ffaa00" guibg=bg ctermfg=darkyellow
 
 hi clear SpellBad
